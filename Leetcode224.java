@@ -5,7 +5,7 @@ class Solution {
         int number = 0;
         int sign = 1;
         int len = s.length();
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < len; i++){
             char ch = s.charAt(i);
             if(Character.isDigit(ch)){
                 number = number*10 + (ch - '0');
