@@ -33,7 +33,7 @@ class DSU{
 
         parent[rb] = rb;
         size[ra] += size[rb];
-        companents--;
+        components--;
         return true;
     }
 
