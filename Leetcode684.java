@@ -1,4 +1,4 @@
-class Leetcode648{
+class Leetcode684{
     public int[] findRedundentConnection(int edges[][]){
         int n = edges.length;
         DSU dsu = new DSU(n + 1);
